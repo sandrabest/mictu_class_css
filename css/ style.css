@@ -43,5 +43,81 @@
     border-color: blueviolet burlywood cornflowerblue greenyellow;
     display: flex;
     justify-content: center;
-    margin: 20px -5px 0px 0px;
-    align`
+    margin: 20px -5px 0px 0px;}
+.divhome{
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px; /* Adjust the height as needed */
+    align-items: center;
+    padding: 10px;
+}
+    
+.divp{ /* for the links */
+    text-decoration: none;
+    color: rgb(186, 103, 103);
+    padding: -20px -30px -10px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    text-align: center;
+    font-weight: bold;
+   
+
+}
+.body{
+    background-color: rgb(237, 237, 237);
+}
+#parent-block{
+    background-color: red;
+    border-radius:10px;
+    display: flex;
+}
+#block-sedan-id{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    height: 300px;
+    width: 150px;
+    padding: 50px 50px 0px 50px;
+    border-radius:10px 0px 0px 10px;
+}
+#block-suvs-id{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    height: 300px;
+    width: 150px;
+    padding: 50px 50px 0px 50px;
+}
+.icon-class{
+    
+}
+.icon-image{
+    margin-bottom: 20px;
+    width: 50px;
+}
+
+.block-heading{
+    font-weight: bold;
+    font-size: 25px;
+}
+.block-decription{
+    font-size: 13px;
+    color: hsl(31, 83%, 84%);
+    margin-bottom: 60px;
+}
+
+.learn-more{
+    background-color: white;
+    padding: 10px 25px 10px 25px;
+    font-size: 12px;
+    border-radius: 20px;
+    text-decoration:none;
+}
+.suv-learn-more{
+    color: hsl(184, 100%, 22%);
+}
+.sedan-learn-more{
+    color: hsl(31, 77%, 52%);
+}
